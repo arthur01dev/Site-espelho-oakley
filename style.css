@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(39, 39, 39);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+}
+
+header {
+  background: black;
+  display: flex;
+  align-items: center;
+  height: 70px;
+}
+
+.logotipo-info {
+  display: flex;
+  align-items: center;
+}
+
+.logotipo-info img {
+  width: 100px;
+  height: 50px;
+  margin-left: 85px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.logotipo-info nav {
+  display: flex;
+  margin-left: 500px;
+}
+
+.logotipo-info nav li a {
+  list-style: none;
+  margin-left: 65px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition: 1.5s;
+}
+
+.logotipo-info nav li a:hover {
+  color: aqua;
+}
+
+main {
+  display: flex;
+}
+
+.exposition img {
+  width: 700px;
+  margin-left: 35px;
+  margin-top: 40px;
+  border-radius: 5px;
+}
+
+.exposition2 img {
+  width: 540px;
+  margin-left: 45px;
+  margin-top: 70px;
+  border-radius: 5px;
+}
+
+main button {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  width: 70%;
+  height: 15%;
+  padding: 16px 0px;
+  margin-left: 98px;
+  margin-top: 50px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  text-transform: uppercase;
+  color: rgb(255, 250, 250);
+  background: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.infocriador a{
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    display: flex;
+}
+
+.infocriador a:hover{
+    color: aqua;
+}
+
+
